@@ -1,4 +1,5 @@
 /* 034f84 */
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
 body {
     color: #333333;
     font-family: arial;
@@ -7,6 +8,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 97vh;
+    font-family: "ubuntu";
 }
 
 .main-content {
@@ -44,16 +46,19 @@ header h1 {
 header a {
     float:right;
     margin-top: 75px;
+    font-family: "ubuntu";
 }
 h1 {
     font-size: 64px;
     margin-bottom: 16px;
+    font-family: "ubuntu";
 }
 
 header a {
     color: white;
     margin-right: 40px;
     text-decoration: none;
+    font-family: "ubuntu";
 }
 
 .portrait {
@@ -84,6 +89,7 @@ button {
     padding-right:10%;
     background-color: #47b1fa;
     color: white;
+    
 }
 
 .today-table p {
@@ -95,6 +101,9 @@ button {
     padding: 10px;
     text-align: center;
     border-radius: 10px;
+    width: 250px;
+    height: auto;
+    font-family: "ubuntu";
 
 
 

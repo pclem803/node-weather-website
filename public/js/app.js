@@ -37,13 +37,13 @@ function loadWeek(data) {
     var current_time = d.getHours()//RETURNS CURRENT HOUR
     var today = d.getDate() //GETS THE DAY OF THE WEEK IT IS
     var month =d.getMonth();
-    var week = document.getElementById("next-week")
     var today_table = document.getElementById("today")
     if (today_table){
         clearweather(today_table)
     }
     var week_table = document.getElementById("week-table")
     const days = ["Sunday", "Monday", 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
+    const shortdays= ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
     const months = ['January', 'Febuary', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
     
     var dayheader = document.createElement("h1")
@@ -90,6 +90,31 @@ function loadWeek(data) {
         counter2++;
     }
 
+
+    var weekheader = document.createElement("h1")
+    var weekheadertext = document.createTextNode("This Week:")
+    weekheader.appendChild(weekheadertext)
+    today_table.appendChild(weekheader)
+    counter3=1;//COUNTER FOR DAYS
+    for (let j=1; j<7; j++){
+        var week_day = document.createElement("p")
+        if (today+j+1 > 6){
+            today = today-7
+        }
+        var week_daytext = document.createTextNode(shortdays[today+j+1] +': ')
+        week_day.appendChild(week_daytext)
+        var daybreak1 = document.createElement("br")
+        week_day.appendChild(daybreak1)
+        var daysummary = document.createTextNode(data.forecast.daily.data[j].summary)
+        week_day.appendChild(daysummary)
+        var daybreak2 = document.createElement("br")
+        week_day.appendChild(daybreak2)
+        var daytemperature = document.createTextNode(Math.round(data.forecast.daily.data[j].temperatureLow) + '°'+ " thorugh " + Math.round(data.forecast.daily.data[j].temperatureHigh) + '°F')
+        week_day.appendChild(daytemperature)
+        today_table.appendChild(week_day);
+    }
+
+    
 }
 
 
