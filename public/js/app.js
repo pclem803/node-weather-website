@@ -80,7 +80,10 @@ function loadWeek(data) {
         var hourbreak = document.createElement("br")
         hour.appendChild(hourText)
         hour.appendChild(hourbreak)
-        var hourweather = document.createTextNode(data.forecast.hourly.data[counter].temperature + " ")
+        var hoursummary = document.createTextNode(data.forecast.hourly.data[counter].summary)
+        hour.appendChild(hoursummary)
+        hour.appendChild(hourbreak)
+        var hourweather = document.createTextNode(Math.round(data.forecast.hourly.data[counter].temperature) + '°F ')
         hour.appendChild(hourweather)
         today_table.appendChild(hour)
         counter++;
