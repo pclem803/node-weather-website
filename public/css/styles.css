@@ -1,39 +1,57 @@
 body {
     color: #333333;
     font-family: arial;
-    max-width: 650px;
+    max-width: 100%;
     margin: 0 auto;
-    padding: 0 16px;
-
     display: flex;
     flex-direction: column;
-    min-height: 100vh
+    height: 97vh;
 }
 
 .main-content {
     flex-grow: 1;
+    text-align: center;
+    height: 0px;
 }
 
 footer {
     color: #888888;
     border-top: 1px solid #eeeeee;
-    margin-top: 16px;
-    padding: 16px 0;
+    margin-top: 0px;
+    margin-bottom: 30px;
 }
 
 header {
-    margin-top: 16px;
+    margin-top: 0px;
     margin-bottom: 48px;
+    margin-left: 0px;
+    width: 100%;
+    background-color: #034f84;
+    color: white;
 }
 
+header h1 {
+    float: left;
+    margin-top: 25px;
+}
+
+.links {
+    margin-left:35%;
+    color: white;
+}
+
+header a {
+    float:right;
+    margin-top: 75px;
+}
 h1 {
     font-size: 64px;
     margin-bottom: 16px;
 }
 
 header a {
-    color: #888888;
-    margin-right: 16px;
+    color: white;
+    margin-right: 40px;
     text-decoration: none;
 }
 
@@ -41,10 +59,13 @@ header a {
     width: 250px;
 }
 
-
 input{
     border: 1px solid #cccccc;
     padding: 8px;
+}
+
+form {
+    padding-bottom: 25px;
 }
 
 button {
@@ -54,3 +75,22 @@ button {
     color: white;
     padding: 8px;
 }
+
+.today-table {
+    display: inline-block;
+    width: 80%;
+    padding-left:10%;
+    padding-right:10%;
+    background-color: #034f84;
+    color: white;
+}
+
+.today-table p {
+    text-align: left;
+    margin-right: 20px;
+    display: inline-block;
+    color:white
+}
+
+
+
