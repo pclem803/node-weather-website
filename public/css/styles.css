@@ -15,9 +15,10 @@ strong{
     font-size: 50px;
 }
 .main-content {
-    min-height: 100vh;
+    padding-top:15vh;
     flex-grow: 1;
     text-align: center;
+    padding-bottom: 30vh;
 }
 
 .main-content p{
@@ -114,3 +115,4 @@ button {
     height: auto;
     font-family: "ubuntu";
 }
+

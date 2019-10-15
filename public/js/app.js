@@ -238,7 +238,7 @@ const loadImage = function(data){
         header.appendChild(breaker)
         art_desc.style.paddingLeft="10vw"
         art_desc.style.maxWidth="80vw"
-        art_desc.innerHTML = "<strong>Evolve DeEvolve</strong> <br>Frank Shepard Fairey is an American contemporary street artist, graphic designer, activist, and illustrator who emerged from the skateboarding scene. Produced as part of the series which celebrates Earth day, the print attempts to bring awareness of ecological issues which are taking over the planet on a global scale."
+        art_desc.innerHTML = "<strong>Seaport by Moonlight</strong> <br>Claude-Joseph Vernet was the leading French landscape painter (with Hubert Robert) of the later 18th century. He achieved great celebrity with his topographical paintings and serene landscapes. Seaport by Moonlight was painted in 1771 on an oil on canvas. Peaceful seaport night scene."
         header.appendChild(art_desc)
     }
 
