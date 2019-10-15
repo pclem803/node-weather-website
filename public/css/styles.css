@@ -12,17 +12,18 @@ body {
 }
 
 strong{
-    font-size: 30px;
+    font-size: 50px;
 }
 .main-content {
-    padding-top:10vh;
+    padding-top:15vh;
     flex-grow: 1;
     text-align: center;
-    padding-bottom: 35vh;
+    padding-bottom: 50vh;
+    transform: scaleX(1);
 }
 
 .main-content p{
-    font-size: 20px;
+    font-size: 30px;
 }
 
 footer {
