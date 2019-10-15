@@ -11,10 +11,18 @@ body {
     font-family: "ubuntu";
 }
 
+strong{
+    font-size: 30px;
+}
 .main-content {
+    padding-top:10vh;
     flex-grow: 1;
     text-align: center;
-    height: 0px;
+    padding-bottom: 35vh;
+}
+
+.main-content p{
+    font-size: 20px;
 }
 
 footer {
@@ -26,7 +34,7 @@ footer {
 
 header {
     margin-top: 0px;
-    margin-bottom: 48px;
+    margin-bottom: 0px;
     margin-left: 0px;
     width: 100%;
     background-color: #47b1fa;
@@ -49,12 +57,14 @@ header a {
     font-family: "ubuntu";
 }
 h1 {
+    text-align: center;
     font-size: 64px;
     margin-bottom: 16px;
     font-family: "ubuntu";
 }
 
 header a {
+    text-align: center;
     color: white;
     margin-right: 40px;
     text-decoration: none;
@@ -83,17 +93,17 @@ button {
 }
 
 .today-table {
+    text-align: center;
     display: inline-block;
     width: 80%;
     padding-left:10%;
     padding-right:10%;
     background-color: #47b1fa;
     color: white;
-    
 }
 
 .today-table p {
-    text-align: left;
+    text-align: center;
     margin-right: 20px;
     display: inline-block;
     color:white;
