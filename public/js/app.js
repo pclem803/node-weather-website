@@ -146,7 +146,7 @@ const loadImage = function(data){
         art_desc.innerHTML=""
         header.style.color="white"
         header.style.backgroundImage="url('./img/Stary_Night.png')"
-        header.style.backgroundAttachment="fixed" 
+        header.style.backgroundAttachment="absolute" 
         header.style.backgroundSize= "cover";
         header.style.backgroundPosition= "center";
         const breaker = document.createElement("br")
@@ -162,7 +162,7 @@ const loadImage = function(data){
         art_desc.innerHTML=""
         header.style.color="white"
         header.style.backgroundImage="url('./img/rainy_img.png')"
-        header.style.backgroundAttachment="fixed" 
+        header.style.backgroundAttachment="absolute" 
         header.style.backgroundSize= "cover";
         header.style.backgroundPosition= "center";
         const breaker = document.createElement("br")
@@ -179,7 +179,7 @@ const loadImage = function(data){
         art_desc.innerHTML=""
         header.style.color="black"
         header.style.backgroundImage="url('./img/Night_Snow.png')"
-        header.style.backgroundAttachment="fixed" 
+        header.style.backgroundAttachment="absolute" 
         header.style.backgroundSize= "cover";
         header.style.backgroundPosition= "center";
         const breaker = document.createElement("br")
@@ -196,7 +196,7 @@ const loadImage = function(data){
         art_desc.innerHTML=""
         header.style.color="white"
         header.style.backgroundImage="url('./img/clear_day.png')"
-        header.style.backgroundAttachment="fixed" 
+        header.style.backgroundAttachment="absolute" 
         header.style.backgroundSize= "cover";
         header.style.backgroundPosition= "center";
         const breaker = document.createElement("br")
@@ -213,7 +213,7 @@ const loadImage = function(data){
         art_desc.innerHTML=""
         header.style.color="black"
         header.style.backgroundImage="url('./img/wind.png')"
-        header.style.backgroundAttachment="fixed" 
+        header.style.backgroundAttachment="absolute" 
         header.style.backgroundSize= "cover";
         header.style.backgroundPosition= "center";
         const breaker = document.createElement("br")
@@ -230,7 +230,7 @@ const loadImage = function(data){
         art_desc.innerHTML=""
         header.style.color="white"
         header.style.backgroundImage="url('./img/cloudy_night.png')"
-        header.style.backgroundAttachment="fixed" 
+        header.style.backgroundAttachment="absolute"  
         header.style.backgroundSize= "cover";
         header.style.backgroundPosition= "center";
         const breaker = document.createElement("br")
@@ -247,8 +247,8 @@ const loadImage = function(data){
         art_desc.innerHTML=""
         header.style.color="white"
         header.style.backgroundImage="url('./img/Wanderer.png')"
-        header.style.backgroundAttachment="fixed" 
-        header.style.backgroundSize= "contain";
+        header.style.backgroundAttachment="absolute" 
+        header.style.backgroundSize= "cover";
         header.style.backgroundPosition= "center";
         const breaker = document.createElement("br")
         header.appendChild(breaker)
@@ -258,4 +258,8 @@ const loadImage = function(data){
         art_desc.innerHTML = "<strong>Wanderer Above the Sea of Fog</strong> <br>Also known as Wanderer above the Mist or Mountaineer in a Misty Landscape, is an oil painting c. 1818 by the German Romantic artist Caspar David Friedrich. It has been considered one of the masterpieces of Romanticism and one of its most representative works."
         header.appendChild(art_desc)
     }
+
+
+
+
 }
