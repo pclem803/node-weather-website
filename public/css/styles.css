@@ -18,8 +18,7 @@ strong{
     padding-top:15vh;
     flex-grow: 1;
     text-align: center;
-    padding-bottom: 50vh;
-    transform: scaleX(1);
+    padding-bottom: 30vh;
 }
 
 .main-content p{

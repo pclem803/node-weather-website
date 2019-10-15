@@ -248,7 +248,7 @@ const loadImage = function(data){
         header.style.color="white"
         header.style.backgroundImage="url('./img/Wanderer.png')"
         header.style.backgroundAttachment="fixed" 
-        header.style.backgroundSize= "cover";
+        header.style.backgroundSize= "contain";
         header.style.backgroundPosition= "center";
         const breaker = document.createElement("br")
         header.appendChild(breaker)
@@ -258,8 +258,4 @@ const loadImage = function(data){
         art_desc.innerHTML = "<strong>Wanderer Above the Sea of Fog</strong> <br>Also known as Wanderer above the Mist or Mountaineer in a Misty Landscape, is an oil painting c. 1818 by the German Romantic artist Caspar David Friedrich. It has been considered one of the masterpieces of Romanticism and one of its most representative works."
         header.appendChild(art_desc)
     }
-
-
-
-
 }
