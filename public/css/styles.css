@@ -26,10 +26,11 @@ strong{
 }
 
 footer {
-    color: #888888;
+    color: white;
     border-top: 1px solid #eeeeee;
     margin-top: 0px;
-    margin-bottom: 30px;
+    padding-bottom: 20px;
+    background-color: #47b1fa
 }
 
 header {
@@ -114,5 +115,9 @@ button {
     width: 250px;
     height: auto;
     font-family: "ubuntu";
+}
+
+.week-table{
+    background-color: #0896f8;
 }
 

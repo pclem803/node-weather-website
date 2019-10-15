@@ -55,6 +55,7 @@ function loadWeek(data) {
     var dayheadertext = document.createTextNode(days[today] + ", " + months[month] + " " + d.getFullYear())
     dayheader.appendChild(dayheadertext)
     today_table.appendChild(dayheader)
+    
 
     var counter=0;//COUNTER TO GET THE ARRAY OF DATA FROM API
     var counter2=0;
